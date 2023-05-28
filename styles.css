@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+:root{
+--pera-color: rgba(255, 255, 255, 0.7);
+--banner-bg-color: linear-gradient(143.59deg, #200A53 8.14%, #6826FF 132.76%);
+--heading-color:#ffffff;
+--heading-color2: #171718;
+--button-bg: #6826FF;
+--blog-heading:#242121;
+--blog-meta: #585858;
+--blog-meta2:#1A1A1A;
+--footer-bg: #F6F2FF;
+--dark: #000;
+--box-pera-color: rgba(23, 23, 24, 0.7);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* common css  Start*/
+.banner-heading{
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 700;
+    color: var(--heading-color);
+    text-transform: capitalize;
+}
+
+.section-heading-dark{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: var(--heading-color2);
+}
+
+.section-heading-light {
+font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: var(--heading-color);
+}
+
+.pera{
+    font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--pera-color);
+}
+.button-fill{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--heading-color);
+    background-color: var(--button-bg);
+    border: 1px solid var(--button-bg);
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: 0.3s linear;
+}
+.button-fill:hover {
+    color: var(--heading-color);
+    background-color: transparent;
+    border: 1px solid var(--button-bg);
+}
+
+
+.button-outline {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--heading-color);
+        background-color: transparent;
+        border: 1px solid var(--button-bg);
+        padding: 12px 24px;
+        border-radius: 8px;
+            transition: 0.3s linear;
+}
+
+.button-outline:hover {
+    color: var(--heading-color);
+    background-color: var(--button-bg);
+    border: 1px solid var(--button-bg);
+}
+
+.box-heading{
+        font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: var(--heading-color2);
+}
+
+.box-pera {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--box-pera-color);
+}
+
+
+
+.core-services , .customer, .how-works{
+    margin: 120px 0px;
+}
+
+
+/* common css  End*/
+
+
+/* Home page Css Start */
+
+/* Home page Banner styles Start */
+.home-Banner{
+    background: var(--banner-bg-color);
+    padding: 140px 0px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.home-Banner .banner-heading {
+    margin-bottom:24px;
+}
+.home-Banner .pera {
+        margin-bottom: 48px;
+}
+/* Home page Banner styles End */
+
+
+
+
+/* core services styles start  */
+
+.core-service-box{
+    border: 1px solid var(--button-bg);
+    padding: 40px 40px 30px 40px;
+    border-radius: 16px;
+    clip-path: polygon(0 0, 100% 11%, 100% 94%, 0% 100%);
+}
+
+
+/* core services styles End  */
+
+
+/* customer styles start */
+.customer .customer-logos {
+    display: flex;
+    column-gap: 30px;
+}
+
+.customer .customer-logos .logo-item{
+    width: 25%;
+    border: 1px solid rgba(23, 23, 24, 0.2);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.how-works .row .box img{
+    margin-bottom: 20px;
+}
+.how-works .row .box imh4g {
+    margin-bottom: 10px;
+}
+
+
+
+/* customer styles end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home page Css End */
+
