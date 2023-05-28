@@ -98,6 +98,7 @@ font-weight: 600;
             line-height: 30px;
             text-transform: capitalize;
             color: var(--heading-color2);
+            text-transform: capitalize;
 }
 
 .box-pera {
@@ -168,7 +169,7 @@ font-weight: 400;
 .how-works .row .box img{
     margin-bottom: 20px;
 }
-.how-works .row .box imh4g {
+.how-works .row .box h4 {
     margin-bottom: 10px;
 }
 
